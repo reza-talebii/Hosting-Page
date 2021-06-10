@@ -25,6 +25,16 @@ img {
 }
 p {
     color: #2e2e2e;
+    opacity: 0.8;
+}
+a {
+    text-decoration: none;
+}
+button,
+input,
+select {
+    outline: 0;
+    border: 0;
 }
 .container {
     width: 100%;
@@ -44,7 +54,7 @@ p {
 #header {
     height: 100vh;
     background: url('../images/headerBg.png') center/cover no-repeat;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 .header-menu {
     display: flex;
@@ -58,12 +68,12 @@ p {
 }
 .menu__item {
     color: #fff;
-    text-decoration: none;
+
     margin: 0 0.8rem;
 }
 .menu__item--active {
     background: var(--light-blue);
-    padding: 35px 15px 5px;
+    padding: 2.2rem 1em 0.5rem;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -71,7 +81,7 @@ p {
     display: inline-block;
     background: #fff;
     color: var(--light-blue);
-    padding: 12px 20px;
+    padding: 0.8rem 1.2rem;
     font-family: var(--nunito-bold);
     border-radius: 5px;
     transition: all 0.4s;
@@ -119,5 +129,71 @@ p {
     transform: rotate(227deg) translate(5px);
 }
 /* ---------end menu-------- */
+
+/* ---------start content -------- */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding-top: 4rem;
+}
+.header-content > div {
+    width: 50%;
+}
+.categories__title {
+    color: #fff;
+    font-size: 2.2rem;
+    font-family: var(--nunito-bold);
+}
+.categories__subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+.categories__input,
+.categories__domainName {
+    background: #384170;
+    color: #fff;
+}
+.categories__input {
+    min-width: 300px;
+    max-width: 300px;
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 13px 29px;
+}
+.categories__domainName {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 3px;
+    margin: 0 10px 1px -3px;
+}
+.categories__input::-webkit-input-placeholder {
+    color: #fff;
+}
+.categories__input::-moz-placeholder {
+    color: #fff;
+}
+.categories__input:-ms-input-placeholder {
+    color: #fff;
+}
+.categories__input::-ms-input-placeholder {
+    color: #fff;
+}
+.categories__input::placeholder {
+    color: #fff;
+}
+.categories__btn {
+    display: inline-block;
+    background: var(--light-blue);
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* ---------end content-------- */
 
 /* ************end header ***************/
