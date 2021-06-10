@@ -38,7 +38,6 @@ p {
 .icon {
     color: var(--light-blue);
     font-size: 0.8rem;
-    margin-left: 10px;
 }
 
 /* *************** start header ***************/
@@ -75,6 +74,18 @@ p {
     padding: 12px 20px;
     font-family: var(--nunito-bold);
     border-radius: 5px;
+    transition: all 0.4s;
+}
+.menu__item--btn:hover {
+    background: var(--light-blue);
+    color: #fff;
+}
+.menu__icon--awesome {
+    margin-left: 10px;
+    transition: color 0.4s;
+}
+.menu__item--btn:hover .menu__icon--awesome {
+    color: #fff;
 }
 .line-menu {
     transform: rotate(180deg);
