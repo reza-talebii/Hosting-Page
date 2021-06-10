@@ -2,6 +2,11 @@
 :root {
     --dark-blue: #424d83;
     --light-blue: #93a5ff;
+    --nunito-Black: 'Nunito-Black';
+    --nunito-bold: 'Nunito-bold';
+    --nunito-Italic: 'Nunito-Italic';
+    --nunito-Light: 'Nunito-Light';
+    --nunito-Regular: 'Nunito-Regular';
 }
 html {
     box-sizing: border-box;
@@ -10,6 +15,9 @@ html {
 ::after,
 ::before {
     box-sizing: border-box;
+}
+body {
+    font-family: var(--nunito-Regular);
 }
 img {
     width: 100%;
@@ -27,11 +35,42 @@ p {
     position: relative;
     overflow: hidden;
 }
+.icon {
+    color: var(--light-blue);
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
 
 /* ===============start header=============== */
 #header {
     height: 100vh;
     background: url('../images/headerBg.png') center/cover no-repeat;
     padding-bottom: 50px;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.menu__item {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.8rem;
+}
+.menu__item--active {
+    background: var(--light-blue);
+    padding: 35px 15px 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.menu__item--btn {
+    display: inline-block;
+    background: #fff;
+    color: var(--light-blue);
+    padding: 12px 20px;
+    font-family: var(--nunito-bold);
+    border-radius: 5px;
 }
 /* ===============end header=============== */

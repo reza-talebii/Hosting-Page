@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="styles/reset-css.min.css">
     <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css">
     <link rel="stylesheet" href="styles/app.css">
     <link rel="stylesheet" href="styles/respansive.css">
 
@@ -17,8 +18,18 @@
 <body>
     <header id="header">
         <div class="container">
-            <section class="menu"></section>
-            <section class="header-content"></section>
+            <section class="header-menu">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" class="logo__image">
+                </div>
+                <nav class="menu">
+                    <a href="#" class="menu__item menu__item--active">Home</a>
+                    <a href="#" class="menu__item">Services</a>
+                    <a href="#" class="menu__item">Our Plans</a>
+                    <a href="#" class="menu__item">Tools & Recources</a>
+                    <a href="#" class="menu__item menu__item--btn">Login <i class="fas fa-user-alt icon"></i></a>
+                </nav>
+            </section>
         </div>
     </header>
 </body>
