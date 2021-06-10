@@ -27,3 +27,11 @@ p {
     position: relative;
     overflow: hidden;
 }
+
+/* ===============start header=============== */
+#header {
+    height: 100vh;
+    background: url('../images/headerBg.png') center/cover no-repeat;
+    padding-bottom: 50px;
+}
+/* ===============end header=============== */
