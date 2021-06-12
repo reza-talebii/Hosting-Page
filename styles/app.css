@@ -409,6 +409,56 @@ h6 {
 /* ------- start comments ------ */
 #comments {
     background: #f7f8ff;
+    position: relative;
+    /* -webkit-filter: blur(5px);
+            filter: blur(5px); */
+}
+.comment__section {
+    justify-content: space-around;
+}
+.comment {
+    display: flex;
+}
+.comment__image {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 1rem;
+}
+.comment__image > img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.comment__stars i {
+    color: gold;
+}
+.comment__body {
+    margin: 1.3rem 0;
+    max-width: 375px;
+
+    line-height: 28px;
+}
+.comment__name {
+    color: #000;
+    font-family: var(--nunito-bold);
+}
+.comment__name::before {
+    content: '-';
+}
+.comment__doted {
+    width: 170px;
+    position: absolute;
+}
+.comment__doted--top {
+    top: -28px;
+    right: 0;
+}
+.comment__doted--bottom {
+    bottom: -28px;
+    left: 0;
 }
 /* ------- end comments ------ */
 /* ************end main ***************/

@@ -80,6 +80,21 @@
         height: 220px;
     }
     /* **********end plan ******** */
+    /* *************start comment*********** */
+    .comment__section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .comment {
+        margin: 1rem 0;
+    }
+    .comment__body {
+        max-width: 500px;
+    }
+    .comment__doted {
+        max-width: 110px;
+    }
+    /* *************end comment*********** */
 }
 @media only screen and (max-width: 768px) {
     /* ******start content header****** */
@@ -132,6 +147,22 @@
         margin: 15px 0;
     }
     /* **********end plan ******** */
+    /* *************start comment*********** */
+    .comment {
+        flex-direction: column;
+        text-align: center;
+    }
+    .comment__body {
+        max-width: 100%;
+    }
+    .comment__image {
+        justify-content: center;
+        margin: 0 0 1rem;
+    }
+    .comment__doted {
+        display: none;
+    }
+    /* *************end comment*********** */
 }
 
 /* ******************* min-width  ************** */
