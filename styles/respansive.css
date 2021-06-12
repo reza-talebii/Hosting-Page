@@ -201,6 +201,11 @@
     .accept-we {
         justify-content: center;
     }
+    .footer__social {
+        flex-direction: column;
+        justify-content: center;
+    }
+
     /* *************end footer*********** */
 }
 
