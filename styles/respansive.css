@@ -66,6 +66,18 @@
         margin: 10px 0;
     }
     /******* end start-section ****** */
+    .plan__section {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .plan {
+        width: 47%;
+        margin: 15px auto;
+    }
+    .plan__bottom-box {
+        height: 220px;
+    }
 }
 @media only screen and (max-width: 768px) {
     /* ******start content header****** */
@@ -112,6 +124,10 @@
         padding: 13px 10px;
     }
     /******* end content header ****** */
+    .plan {
+        width: 100%;
+        margin: 15px 0;
+    }
 }
 
 /* ******************* min-width  ************** */

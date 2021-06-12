@@ -2,6 +2,7 @@
 :root {
     --dark-blue: #424d83;
     --light-blue: #93a5ff;
+    --black: #2e2e2e;
     --nunito-Black: 'Nunito-Black';
     --nunito-bold: 'Nunito-bold';
     --nunito-Italic: 'Nunito-Italic';
@@ -19,6 +20,7 @@ html {
 }
 body {
     font-family: var(--nunito-Regular);
+    text-transform: capitalize;
 }
 img {
     width: 100%;
@@ -258,6 +260,7 @@ h6 {
     font-size: 1.2rem;
     font-family: var(--nunito-bold);
     margin-bottom: 1.2rem;
+    text-transform: uppercase;
 }
 .service__description {
     line-height: 25px;
@@ -266,6 +269,9 @@ h6 {
 /* -------end services------- */
 
 /* ------- start start-section ------ */
+#start {
+    background: #f7f8ff;
+}
 .start {
     border-radius: 5px;
     padding: 2rem 1.5rem;
@@ -306,7 +312,7 @@ h6 {
     margin-top: 0.7rem;
     background: #fff;
     color: var(--light-blue);
-    padding: 8px 15px;
+    padding: 8px 10px;
     font-family: var(--nunito-bold);
     margin-left: auto;
     text-align: center;
@@ -316,11 +322,75 @@ h6 {
 }
 
 .start__btn--icon {
-    margin-left: 5px;
+    margin-left: 0px;
     transition: 0.4s;
 }
 .start__btn:hover .start__btn--icon {
     margin-left: 10px;
 }
 /* ------- end start-section ------ */
+/* ------- start plans ------ */
+.plan__section {
+    align-items: flex-start;
+    /* height: 553px; */
+    margin-bottom: 60px;
+}
+.plan {
+    width: 25%;
+    margin: 0 10px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 11%);
+}
+.plan:hover .plan__bottom-box {
+    height: 220px;
+}
+.plan__top-box {
+    padding: 4rem 2rem;
+    height: 250px;
+    margin-bottom: 5rem;
+}
+.plan__icon {
+    width: 65px;
+    margin: 0 auto;
+}
+
+.plan__title {
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+.plan__description {
+    line-height: 28px;
+}
+.plan__bottom-box {
+    height: 120px;
+    padding: 2rem 2.5rem;
+    border-top: 1px solid rgb(179, 179, 179);
+    overflow: hidden;
+    transition: height 0.4s;
+}
+.plan__subtitle {
+    font-size: 1.1rem;
+
+    margin-bottom: 0.6rem;
+}
+.plan__price {
+    font-size: 1.7rem;
+    display: inline-block;
+}
+.plan__btn {
+    display: block;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: var(--light-blue);
+    background: #f7f8ff;
+    font-family: var(--nunito-bold);
+    padding: 1rem 1.4rem;
+    border-radius: 5px;
+}
+.plan__btn__icon {
+    margin-left: 5px;
+}
+
+/* ------- end plans ------ */
 /* ************end main ***************/
