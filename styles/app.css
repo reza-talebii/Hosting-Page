@@ -461,4 +461,29 @@ h6 {
     left: 0;
 }
 /* ------- end comments ------ */
+/* ------- start client ------ */
+.client__lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2.5rem 0;
+}
+.client__item > img {
+    width: 80%;
+}
+.client__btn {
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+    background: var(--light-blue);
+    border-radius: 5px;
+    padding: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background 0.4s;
+}
+.client__btn:hover {
+    background: #9dadfd;
+}
+/* ------- end client ------ */
 /* ************end main ***************/
