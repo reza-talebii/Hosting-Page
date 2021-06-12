@@ -1,0 +1,58 @@
+@import url('../common.css');
+
+.start {
+    border-radius: 5px;
+    padding: 2rem 1.5rem;
+    line-height: 28px;
+}
+
+.start--light {
+    background: var(--light-blue);
+    margin-right: 20px;
+}
+.start--dark {
+    background: var(--dark-blue);
+}
+.start__icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.start__icon--light {
+    background: var(--light-blue);
+}
+.start__icon--dark {
+    background: var(--dark-blue);
+}
+.start__icon > img {
+    height: 100%;
+}
+.start__title,
+.start__description {
+    color: #fff;
+}
+.start__btn {
+    display: block;
+    width: 140px;
+    margin-top: 0.7rem;
+    background: #fff;
+    color: var(--light-blue);
+    padding: 8px 15px;
+    font-family: var(--nunito-bold);
+    margin-left: auto;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.start__btn--icon {
+    margin-left: 5px;
+    transition: 0.4s;
+}
+.start__btn:hover .start__btn--icon {
+    margin-left: 10px;
+}

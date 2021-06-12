@@ -1,6 +1,7 @@
 @import url('common.css');
 @import url('header-footer.css');
 @import url('sections/services.css');
+@import url('sections/start.css');
 html {
     box-sizing: border-box;
 }
@@ -49,4 +50,5 @@ h4,
 h5,
 h6 {
     color: #2e2e2e;
+    font-family: var(--nunito-bold);
 }
