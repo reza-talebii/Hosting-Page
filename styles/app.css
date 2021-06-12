@@ -52,9 +52,8 @@ select {
 
 /* *************** start header ***************/
 #header {
-    height: 100vh;
+    height: 700px;
     background: url('../images/headerBg.png') center/cover no-repeat;
-    /* padding-bottom: 50px; */
 }
 .header-menu {
     display: flex;
@@ -134,9 +133,8 @@ select {
 .header-content {
     display: flex;
     justify-content: space-between;
-    height: 100%;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 .header-content > div {
     width: 50%;
@@ -149,7 +147,11 @@ select {
 .categories__subtitle {
     font-size: 1.2rem;
     color: #fff;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+.categories__input-box {
+    display: flex;
+    flex-wrap: wrap;
 }
 .categories__input,
 .categories__domainName {
@@ -157,17 +159,16 @@ select {
     color: #fff;
 }
 .categories__input {
-    min-width: 300px;
     max-width: 300px;
     width: 300px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding: 13px 29px;
+    padding: 0.8rem 1.9rem;
 }
 .categories__domainName {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 10px 3px;
+    padding: 0.63rem 0.2rem;
     margin: 0 10px 1px -3px;
 }
 .categories__input::-webkit-input-placeholder {
@@ -188,12 +189,20 @@ select {
 .categories__btn {
     display: inline-block;
     background: var(--light-blue);
-    padding: 12px 20px;
+    padding: 1rem 1.25rem;
     border-radius: 5px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
+    transition: background 0.4s;
+}
+.categories__btn:hover {
+    background: #9dadfd;
 }
 /* ---------end content-------- */
 
 /* ************end header ***************/
+
+/* ************start main ***************/
+
+/* ************end main ***************/

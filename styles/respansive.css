@@ -1,8 +1,11 @@
 @media only screen and (max-width: 1200px) {
-    /* .categories__btn {
+    /* ******start content header****** */
+    .categories__btn {
         display: block;
         width: 77%;
-    } */
+        margin-top: 0.6rem;
+    }
+    /* ******end content header****** */
 }
 @media only screen and (max-width: 992px) {
     /* ----------start menu------- */
@@ -17,6 +20,7 @@
         max-width: 250px;
         width: 220px;
         height: 100vh;
+        z-index: 99;
     }
     .menu__item {
         margin: 30px 0;
@@ -36,8 +40,36 @@
         display: block;
     }
     /* ----------end menu------- */
+    /* ******start content header****** */
+    .categories {
+        width: 60% !important;
+    }
+    .categories__btn {
+        width: 95%;
+        /* ******start content header****** */
+    }
+    /* ******end content header****** */
 }
 @media only screen and (max-width: 768px) {
+    /* ******start content header****** */
+    .header-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    .header-content > div {
+        width: auto !important;
+    }
+    .categories__input {
+        max-width: 100%;
+        width: 100%;
+    }
+    .box-domain {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    /* ******end content header****** */
 }
 @media only screen and (max-width: 576px) {
     /* ----------start menu------- */
@@ -45,16 +77,15 @@
         height: 3px;
     }
     /* ----------end menu------- */
-}
-
-/* ------------------details--------------------- */
-@media only screen and (min-width: 992px) {
-    .line-menu {
-        display: none;
+    .categories__title {
+        font-size: 2rem;
+    }
+    .categories__input {
+        padding: 13px 10px;
     }
 }
 
-/* -------------container------------- */
+/* ******************* min-width  ************** */
 @media only screen and (min-width: 576px) {
     .container {
         max-width: 546px;
@@ -75,6 +106,6 @@
 }
 @media only screen and (min-width: 1200px) {
     .container {
-        max-width: 1170px;
+        max-width: 1250px;
     }
 }
