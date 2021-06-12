@@ -1,0 +1,27 @@
+@import url('../common.css');
+
+.services-banner {
+    width: 50%;
+}
+
+.service {
+    display: flex;
+    margin: 2rem 0;
+}
+.service__icon {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 1rem;
+}
+.service__icon img {
+    width: 60px;
+}
+.service__title {
+    font-size: 1.2rem;
+    font-family: var(--nunito-bold);
+    margin-bottom: 1.2rem;
+}
+.service__description {
+    line-height: 25px;
+    max-width: 430px;
+}
