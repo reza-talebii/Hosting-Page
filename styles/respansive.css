@@ -66,6 +66,7 @@
         margin: 10px 0;
     }
     /******* end start-section ****** */
+    /* **********start plan ******** */
     .plan__section {
         flex-wrap: wrap;
         align-items: center;
@@ -78,6 +79,7 @@
     .plan__bottom-box {
         height: 220px;
     }
+    /* **********end plan ******** */
 }
 @media only screen and (max-width: 768px) {
     /* ******start content header****** */
@@ -124,10 +126,12 @@
         padding: 13px 10px;
     }
     /******* end content header ****** */
+    /* **********start plan ******** */
     .plan {
         width: 100%;
         margin: 15px 0;
     }
+    /* **********end plan ******** */
 }
 
 /* ******************* min-width  ************** */
@@ -147,6 +151,9 @@
     }
     .line-menu {
         display: none;
+    }
+    .plan__section {
+        height: 560px;
     }
 }
 @media only screen and (min-width: 1200px) {
