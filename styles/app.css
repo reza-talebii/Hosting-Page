@@ -410,8 +410,8 @@ h6 {
 #comments {
     background: #f7f8ff;
     position: relative;
-    /* -webkit-filter: blur(5px);
-            filter: blur(5px); */
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
 }
 .comment__section {
     justify-content: space-around;
