@@ -204,5 +204,19 @@ select {
 /* ************end header ***************/
 
 /* ************start main ***************/
-
+.main__section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section-title {
+    font-family: 'Nunito ExtraBold';
+    color: #2e2e2e;
+    font-size: 1.9rem;
+}
+.section-caption {
+    color: #2e2e2e;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-size: 1.3rem;
+}
 /* ************end main ***************/
