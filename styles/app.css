@@ -307,25 +307,24 @@ h6 {
 }
 .start__btn {
     display: block;
-    width: 155px;
+    width: 145px;
     margin-top: 0.7rem;
     background: #fff;
     color: var(--light-blue);
-    padding: 14px 0 14px 15px;
+    padding: 12px 0 12px 10px;
     font-family: var(--nunito-bold);
     margin-left: auto;
-    text-align: center;
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
 }
 
 .start__btn--icon {
-    margin-left: 10px;
+    margin-left: 6px;
     transition: 0.4s;
 }
 .start__btn:hover .start__btn--icon {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 /* ------- end start-section ------ */
 
@@ -388,21 +387,27 @@ h6 {
 }
 .plan__btn {
     display: block;
+    text-align: left;
     margin-top: 3rem;
     text-transform: uppercase;
     color: var(--light-blue);
     background: #f7f8ff;
     font-family: var(--nunito-bold);
-    padding: 1rem 1.4rem;
+    padding: 13px 0 13px 23px;
     border-radius: 5px;
     transition: all 0.4s;
 }
+
 .plan__btn:hover {
     background: var(--light-blue);
     color: #fff;
 }
 .plan__btn__icon {
-    margin-left: 0.3rem;
+    margin-left: 0.4rem;
+    transition: all 0.4s;
+}
+.plan__btn:hover .plan__btn__icon {
+    margin-left: 0.7rem;
 }
 /* ------- end plans ------ */
 
