@@ -46,7 +46,6 @@
     }
     .categories__btn {
         width: 95%;
-        /* ******start content header****** */
     }
     /******* end content header ****** */
     /******* start services ****** */
@@ -109,6 +108,9 @@
     .categories__input {
         max-width: 100%;
         width: 100%;
+    }
+    .categories__btn {
+        width: 98%;
     }
     .box-domain {
         width: 100%;
