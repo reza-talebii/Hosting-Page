@@ -267,7 +267,7 @@ h6 {
 }
 /* -------end services------- */
 
-/* ------- start start-section ------ */
+/* ------- start start section ------ */
 #start {
     background: #f7f8ff;
 }
@@ -307,11 +307,11 @@ h6 {
 }
 .start__btn {
     display: block;
-    width: 140px;
+    width: 155px;
     margin-top: 0.7rem;
     background: #fff;
     color: var(--light-blue);
-    padding: 8px 10px;
+    padding: 14px 0 14px 15px;
     font-family: var(--nunito-bold);
     margin-left: auto;
     text-align: center;
@@ -321,13 +321,14 @@ h6 {
 }
 
 .start__btn--icon {
-    margin-left: 0px;
+    margin-left: 10px;
     transition: 0.4s;
 }
 .start__btn:hover .start__btn--icon {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 /* ------- end start-section ------ */
+
 /* ------- start plans ------ */
 .plan__section {
     align-items: flex-start;

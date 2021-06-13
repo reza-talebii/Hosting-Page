@@ -95,7 +95,7 @@
     }
     /* *************end comment*********** */
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     /* ******start content header****** */
     .header-content {
         flex-direction: column-reverse;
@@ -195,7 +195,9 @@
     }
     /* *************end clients*********** */
     /* *************start footer*********** */
-
+    #footer {
+        padding-top: 5rem;
+    }
     .footer__list {
         max-width: 100%;
         width: 100%;
