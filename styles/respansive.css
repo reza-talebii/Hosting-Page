@@ -40,6 +40,7 @@
         display: block;
     }
     /************* end menu ************ */
+
     /******* start content header ****** */
     .categories {
         width: 60% !important;
@@ -48,6 +49,7 @@
         width: 95%;
     }
     /******* end content header ****** */
+
     /******* start services ****** */
     .content-services {
         flex-direction: column-reverse;
@@ -57,6 +59,7 @@
         margin-bottom: 2rem;
     }
     /******* end services ****** */
+
     /******* start  start-section ****** */
     .start__content {
         flex-direction: column;
@@ -65,6 +68,7 @@
         margin: 10px 0;
     }
     /******* end start-section ****** */
+
     /* **********start plan ******** */
     .plan__section {
         flex-wrap: wrap;
@@ -79,6 +83,7 @@
         height: 220px;
     }
     /* **********end plan ******** */
+
     /* *************start comment*********** */
     .comment__section {
         flex-direction: column;
@@ -166,12 +171,14 @@
         padding: 13px 10px;
     }
     /******* end content header ****** */
+
     /* **********start plan ******** */
     .plan {
         width: 100%;
         margin: 15px 0;
     }
     /* **********end plan ******** */
+
     /* *************start comment*********** */
     .comment {
         flex-direction: column;
@@ -188,12 +195,14 @@
         display: none;
     }
     /* *************end comment*********** */
+
     /* *************start clients*********** */
     .client__item {
         margin: 1rem 0;
         text-align: center;
     }
     /* *************end clients*********** */
+
     /* *************start footer*********** */
     #footer {
         padding-top: 5rem;
